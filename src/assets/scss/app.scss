@@ -2,3 +2,36 @@
 @import 'foundation-emails';
 
 @import 'template/template';
+
+table.container {
+    a {
+        img {
+            display: inline-block;
+        }
+    }
+    &.bg-gray {
+        background-color: #929597;
+        small {
+            font-size: 10px;
+            color: #ffffff;
+            a {
+                color: #ffffff;
+                text-decoration: underline;
+            }
+        }
+    }
+    &.bg-darkgray {
+        background-color: #232323;    
+    }
+    &.bg-black {
+        background-color: #060606;   
+        small {
+            font-size: 8px;
+            color: #bbbbbb;
+            a {
+                color: #bbbbbb;
+                text-decoration: underline;
+            }
+        }  
+    }
+}
