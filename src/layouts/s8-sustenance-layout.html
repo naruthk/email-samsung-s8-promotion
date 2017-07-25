@@ -1,0 +1,74 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="{{root}}css/app.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{subject}}</title>
+  <!-- <style> -->
+</head>
+<body>
+  <span class="preheader">{{description}}</span>
+  <table class="body">
+    <tr>
+      <td class="center" align="center" valign="top">
+        <center>
+
+            {{> body}}
+
+            <container class="bg-gray">
+                <row>
+                    <columns small="12">
+                      <spacer size="32"></spacer>
+                        <center>
+                            <p class="text-center social-icon">
+                                    <a href="https://www.facebook.com/samsungmobilethailand/?cid=_email_FS-Facebook-eDM_hhp-S8-SustenanceFS_20170727
+" title="Facebook">
+                                        <img src="{{roots}}assets/img/shared/facebook.jpg" style="margin-right: 20px;">
+                                    </a>
+                                    <a href="https://www.youtube.com/user/ThaiSamsungMobile?cid=_email_FS-Youtube-eDM_hhp-S8-SustenanceFS_20170727
+" title="Youtube">
+                                        <img src="{{roots}}assets/img/shared/youtube.jpg" style="margin-right: 20px;">
+                                    </a>
+                                    <a href="https://line.me/R/ti/p/%40samsungmobileth?cid=_email_FS-Line-eDM_hhp-S8-SustenanceFS_20170727
+" title="Line">
+                                        <img src="{{roots}}assets/img/shared/line.jpg" style="margin-right: 20px;">
+                                    </a>
+                                    <a href="https://www.mysamsung.com/th/?cid=_email_FS-mySamsung-eDM_hhp-S8-SustenanceFS_20170727
+" title="Samsung">
+                                        <img src="{{roots}}assets/img/shared/samsung.jpg" >
+                                    </a>
+                            </p>
+                        </center>
+                    </columns>
+                </row>
+              <row>
+                <columns small="12">
+                  <small class="black-text">
+                    ข้อความนี้ถูกส่งไปในนามของ Samsung Thailand คุณได้ทำการอนุญาตให้เราติดต่อคุณทางอีเมล หากคุณไม่ประสงค์ที่จะรับจดหมายจากเรา กรุณาคลิกที่ 
+                    <a target="_blank" href="http://membership.samsung.com/sec/common/optout.html?cid=_email_FS-Unsubscribe-eDM_hhp-S8-SustenanceFS_20170727">ลิงค์ หรือ Unsubscribe</a> นี้ เพื่อยกเลิก อ่านข้อมูลเพิ่มเติมเกี่ยวกับนโยบายความเป็นส่วนตัวได้ที่ 
+                    <a target="_blank" href="http://www.samsung.com/th/info/privacy/?cid=_email_FS-Privacy-eDM_hhp-S8-SustenanceFS_20170727
+">http://www.samsung.com/th/info/privacy.html</a> ดูข้อมูลเกี่ยวกับข้อตกลงและเงื่อนไขได้ที่ 
+                    <a target="_blank" href="http://www.samsung.com/th/info/legal/?cid=_email_FS-Legal-eDM_hhp-S8-SustenanceFS_20170727
+">http://www.samsung.com/th/info/legal.html</a><br /><br />
+                  You are receiving this email because you have signed-up for a Samsung Account. <a target="_blank" href="http://membership.samsung.com/sec/common/optout.html?cid=_email_FS-Unsubscribe-eDM_hhp-S8-SustenanceFS_20170727
+">Click here</a> to unsubscribe from this mailing list We have updated our Privacy Policy. For more details <a target="_blank" href="http://www.samsung.com/th/info/privacy/?cid=_email_FS-Privacy-eDM_hhp-S8-SustenanceFS_20170727
+">click here</a></small>
+                </columns>
+              </row>
+
+            </container>
+
+        </center>
+      </td>
+    </tr>
+  </table>
+  <!-- prevent Gmail on iOS font size manipulation -->
+  <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+</body>
+</html>
+

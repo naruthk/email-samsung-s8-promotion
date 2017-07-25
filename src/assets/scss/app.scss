@@ -10,21 +10,30 @@ table.container {
         }
     }
     &.bg-gray {
-        background-color: #929597;
+        background-color: #464646;
         small {
             font-size: 10px;
-            color: #ffffff;
+            // color: #ffffff;
+            .black-text {
+                color: #0a0a0a;
+            }
             a {
-                color: #ffffff;
+                color: #0a0a0a;
                 text-decoration: underline;
             }
         }
     }
     &.bg-darkgray {
         background-color: #232323;    
+        small {
+            color: #0a0a0a;
+        }
     }
     &.bg-black {
-        background-color: #060606;   
+        background-color: #060606;  
+        p {
+            color: white;
+        }
         small {
             font-size: 8px;
             color: #bbbbbb;
